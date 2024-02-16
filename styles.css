@@ -1,0 +1,139 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('./vecteezy_silhueta-do-empresario-no-topo-da-montanha-sobre-o-fundo-do_5205623.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+    font-size: 16px;
+}
+
+.navbar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    background-color: #45a049;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #555;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #777;
+    font-size: 20px;
+}
+
+.featured-plants {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add gap between plant containers */
+}
+
+.plant {
+    width: 45%; /* Set width for each plant */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.plant img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.newsletter, .social-media {
+    width: 48%;
+}
+
+.newsletter {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter form {
+    margin-top: 20px;
+}
+
+.newsletter input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    color: #555;
+    font-size: 16px;
+}
+
+.newsletter button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 18px;
+}
+
+.newsletter button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.social-media {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles can be added as needed */
